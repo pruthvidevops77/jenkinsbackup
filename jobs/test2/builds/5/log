@@ -1,0 +1,23 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pruthvidevops66/test.git # timeout=10
+Fetching upstream changes from https://github.com/pruthvidevops66/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/pruthvidevops66/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 95ce887cd2b5ae49f524766452f56b90c93d6489 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 95ce887cd2b5ae49f524766452f56b90c93d6489 # timeout=10
+Commit message: "added c source code"
+ > git rev-list --no-walk 95ce887cd2b5ae49f524766452f56b90c93d6489 # timeout=10
+[test2] $ /bin/sh -xe /tmp/jenkins2498479248829241962.sh
++ cd /var/lib/jenkins/workspace/test2
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

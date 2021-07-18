@@ -1,0 +1,12 @@
+Started on Jul 17, 2021 12:14:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 440ff7da7c79ad31c12b8df74ef7d1a060b07048 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/pruthvidevops66/test.git # timeout=10
+Found 1 remote heads on https://github.com/pruthvidevops66/test.git
+[poll] Latest remote head revision on refs/heads/master is: 440ff7da7c79ad31c12b8df74ef7d1a060b07048 - already built by 10
+Done. Took 0.32 sec
+No changes

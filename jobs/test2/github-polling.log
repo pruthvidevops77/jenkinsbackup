@@ -1,0 +1,13 @@
+Started on Jul 17, 2021 5:14:17 PM
+Started by event from 140.82.115.148 ⇒ http://65.2.141.182:8081/github-webhook/ on Sat Jul 17 17:14:16 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 95ce887cd2b5ae49f524766452f56b90c93d6489 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/pruthvidevops66/test.git # timeout=10
+Found 1 remote heads on https://github.com/pruthvidevops66/test.git
+[poll] Latest remote head revision on refs/heads/master is: a81a8c3f602c32f9c93b5e3912f970cf02c5de35
+Done. Took 0.41 sec
+Changes found

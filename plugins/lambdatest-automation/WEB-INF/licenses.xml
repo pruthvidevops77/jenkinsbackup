@@ -1,0 +1,39 @@
+<l:dependencies xmlns:l='licenses' version='1.19.4' artifactId='lambdatest-automation' groupId='org.jenkins-ci.plugins'>
+  <l:dependency version='1.19.4' artifactId='lambdatest-automation' groupId='org.jenkins-ci.plugins' name='LambdaTest Automation Plugin' url=''>
+    <l:description>LambdaTest Plugin is used to run automated selenium tests on LambdaTest Cloud</l:description>
+    <l:license url='https://www.mozilla.org/en-US/MPL/2.0/' name='Mozilla Public License 2.0' />
+  </l:dependency>
+  <l:dependency version='1.7' artifactId='structs' groupId='org.jenkins-ci.plugins' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='2.9.7' artifactId='jackson-databind' groupId='com.fasterxml.jackson.core' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='2.9.7' artifactId='jackson-core' groupId='com.fasterxml.jackson.core' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='4.5.6' artifactId='httpclient' groupId='org.apache.httpcomponents' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='4.4.10' artifactId='httpcore' groupId='org.apache.httpcomponents' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='2.11.2' artifactId='log4j-core' groupId='org.apache.logging.log4j' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='2.11.2' artifactId='log4j-api' groupId='org.apache.logging.log4j' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='20090211' artifactId='json' groupId='org.json' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='1.7' artifactId='symbol-annotation' groupId='org.jenkins-ci' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='2.9.0' artifactId='jackson-annotations' groupId='com.fasterxml.jackson.core' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='1.10' artifactId='commons-codec' groupId='commons-codec' name='' url=''>
+    <l:description></l:description>
+  </l:dependency>
+</l:dependencies>

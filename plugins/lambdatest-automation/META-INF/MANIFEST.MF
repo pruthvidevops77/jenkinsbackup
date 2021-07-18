@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: matrix-project:1.4,git:1.1.25,credentials:2.1.10,
+ ant:1.2;resolution:=optional
+Long-Name: LambdaTest Automation Plugin
+Compatible-Since-Version: 1.1.0
+Group-Id: org.jenkins-ci.plugins
+Plugin-Version: 1.19.4
+Jenkins-Version: 2.120
+Extension-Name: lambdatest-automation
+Mask-Classes: groovy.grape org.apache.commons.codec
+PluginFirstClassLoader: true
+Short-Name: lambdatest-automation
+
